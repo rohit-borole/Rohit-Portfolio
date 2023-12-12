@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300;500;600&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300;600&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(217, 217, 217);
+    position: absolute;
+    font-family: 'Kalnia', serif;
+    height: 100vw;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding:0 67px;
+    font-weight: bolder;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 30px 0px 1px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /*background-color: aquamarine;*/
+    width: 110vw;
+    height: auto;
+}
+.container{
+    display:flex
+}
+.infocontainer{
+    /*background-color: burlywood;*/
+    height: 78vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.intro{
+    /*background-color: burlywood;*/
+    height: 78vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    margin: -115px 0 0 36px;
+
+}
+.devpic img{
+    height: 78vh;
+}
+.hello {
+    font-size: 3em;
+    font-family: 'Source Code Pro', monospace;
+}
+.name {
+    font-size: 3.1em;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+}
+.about {
+    font-size: 2.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+.moreabout {
+    font-size: 2.1em;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.buttons{
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+.btn{
+    padding: 17px 43px;
+    border-radius: 27px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    margin: 3px 2px;
+    cursor: pointer; 
+    
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+    font-weight: 700;
+}
+.btn-sm{
+    font-size: 15px;
+    padding: 11px 23px;
+    margin: 5px 0;
+}
+.main h1{
+    margin: 10px 0 10px -1px ;
+    font-size: 58px;
+    font-family: 'Kalnia', serif;
+    font-weight: bolder;
+}
+.contactform{
+    margin: 50px 45px;
+
+}
+.contactform form div{
+    padding: 8px 0 ;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    margin: 5px 0 0;
+    width: 20vw;
+    border-radius: 6px;
+    font-size: 17px;
+}
+#emailHelp{
+    margin: 5px 0;
+    font-size: 10px;
+    color: midnightblue;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 13px;
+    margin: 0px 3px;
+}
+.blogitem{
+    margin: 25px;
+}
+.blogitem h2{
+    margin: 25px 23px 19px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+}
+
+.CVcontainer h2{
+    margin: 25px 23px 26px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+}
+.h2{
+    margin: 25px 23px 19px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+}
+.p{
+    margin: -13px 25px 10px;
+    font-family: 'Source Code Pro', monospace;
+}
+.devinfo h2{
+    margin: 25px 23px 19px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+}
+.prog_skillcontainer p{
+    margin: -13px 25px 10px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;   
+}
+.sidebarGo{
+    transform: translate(-250px, 0px);
+    position: absolute;
+}
+.skillcontainer p{
+    margin: -13px 25px 10px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;   
+}
+@media (max-width: 1025px){
+    /*kground-color: aquamarine;*/
+    
+    .devpic{
+        display: none;
+    }
+    .devinfo{
+        font-size: 10px;
+        padding: 30px 0;
+    }
+    .buttons{
+        font-size: 7px;
+    }
+    /*.main h1{
+        font-size: 45px;
+    }*/
+    .intro h1{
+        font-size: 45px;
+    }
+    .CVcontainer h1{
+        font-size: 45px;
+    }
+    .blogcontainer h1{
+        font-size: 45px;
+    }
+    .contactform h1{
+        font-size: 45px;
+    }
+    .CVcontainer{
+        margin: 21px 0 0 51px;
+    }
+    .blogcontainer{
+        margin: 22px 0 0 15px;
+    }
+    .intro{
+        margin: 80px 0 0 14px;
+    }
+    .contactform{
+        margin: 13px 0 0 50px;
+    }
+    .infocontainer{
+        margin: 95px 0 0 21px;        
+    }
+    .contactform form div input {
+        margin: 5px 0 0;
+        width: 250px;
+        border-radius: 6px;
+        font-size: 17px;
+    }
+    .sidebar {
+        background-color: rgb(217, 217, 217);
+        position: absolute;
+        font-family: 'Kalnia', serif;
+        height: 100%;
+        transition: transform 0.3s ease-in;
+    }
+    .logo1{
+        margin-left: 30px;
+    }
+} 
+.logo{
+    padding: 10px;
+    margin: 7px 33px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.logo1{
+    margin-left:0 630px;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 175px;
+    transition: transform 0.3s ease-in;
+}
+.blogcontainer h1{
+    margin: 25px;
+
+}
+.blogcontainer{
+    margin: 50px 0 0 45px;
+
+}
+
+.contactform h1{
+    margin: 10px 0 10px -1px ;
+    
+}
+.vl {
+    border-left: 6px solid rgb(119, 119, 119);
+    height: 100%;
+    margin-left: 220px;
+    filter: blur(5px);
+    position: fixed;
+    
+}
+.CVcontainer{
+    margin: 50px 0 0 45px;
+}
+
+
+
+
+
+
+
+
